@@ -1,0 +1,77 @@
+.jokes{
+    display:flex;
+    flex-direction: column;
+    // border: 1px solid black;
+    margin: 20px 0px;
+    padding: 10px;
+    text-align: center;
+    h3{
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+    .inputTag{
+        margin: 12px 0px;
+        display: flex;
+        input{
+            padding: 14px 12px;
+            font-size: 1.2rem;
+            border: 8px;
+            border-radius: 12px;
+            margin: 0px 10px;
+            outline: none;
+            width: 80%;
+        }
+        button{
+            width: 12%;
+            padding: .7rem 1rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            background-color: aquamarine;
+        }
+    }
+    .joke{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding: 10px;
+        border-radius: 12px;
+        box-shadow: 1px 1px 2px rgb(0, 0, 0);
+        border: 1px solid black;
+        margin: 10px 0px;
+        background-color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        h4{
+            position: absolute;
+        }
+        p{
+            letter-spacing: 1px;
+            width: 90%;
+            font-weight: 300;
+            margin: 0 auto;
+        }
+        small{
+            position: absolute;
+            font-size: 12px;
+            font-weight: 300;
+        }
+        .btns{
+            margin-top: 20px ;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            padding: 10px;
+            button{
+                padding: .8rem 1.4rem;
+                border-radius: 8px;
+                border: none;
+                font-size: 1.3rem;
+                cursor: pointer;
+                background-color: rgba(31, 153, 127, 0.548);
+            }
+        }
+    }
+}
